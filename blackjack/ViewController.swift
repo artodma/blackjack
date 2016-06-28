@@ -1,10 +1,4 @@
-//
-//  ViewController.swift
-//  blackjack
-//
-//  Created by Student on 6/27/16.
-//  Copyright © 2016 Student. All rights reserved.
-//
+
 
 import UIKit
 
@@ -54,7 +48,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    // a
     func updatePlayerValueUI () -> Void {
         if playerCards.value[0] == playerCards.value[1] {
             playerValueUI.text = String(playerCards.value[0])
